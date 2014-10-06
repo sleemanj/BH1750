@@ -1,7 +1,7 @@
 BH1750
 ======
 
-An Arduino library for digital light sensor breakout boards containing the BH1750FVI IC.
+An Arduino library for GY-30 (and other) digital light sensor breakout boards containing the BH1750FVI IC.
 
 The board uses I2C for communication. 
 
@@ -10,8 +10,11 @@ The board uses I2C for communication.
 Datasheet for the light sensor:
 http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/light/bh1750fvi-e.pdf
 
+
 Wiring
 ------
+
+The GY-30 modules are 5v tolerant, they do the level shifting for you, if you are using a different breakout module please ensure it is tolerant of the voltage you will feed it!
 
 * SCL     ->     SCL (A5, Use Pin 21 on the Arduino Mega)
 * SDA     ->     SDA (A4, Use Pin 20 on the Arduino Mega)
