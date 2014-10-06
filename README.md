@@ -3,10 +3,6 @@ BH1750
 
 An Arduino library for GY-30 (and other) digital light sensor breakout boards containing the BH1750FVI IC.
 
-The board uses I2C for communication. 
-
-2 pins are required to interface to the device.
-
 Datasheet for the light sensor:
 http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/light/bh1750fvi-e.pdf
 
